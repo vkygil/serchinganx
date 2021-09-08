@@ -43,7 +43,7 @@
     <script>
         window.onload = function () {
             let x = "re"
-            fetch('http://192.168.1.201:1337/https://to' + 'r' + x + 'nt-paradise.ml/api/search' + window.location.search)
+            fetch('https://ploxiustemporar.herokuapp.com/https://to' + 'r' + x + 'nt-paradise.ml/api/search' + window.location.search)
                 .then(response => response.json())
                 .then(results => {
                     app.results = results.map((result) => {
