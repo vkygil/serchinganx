@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "buefy": "^0.9.10",
-    "vue": "^2.6.14"
+    "vue": "^2.6.14",
+    "bulmaswatch": "latest"
   },
   "devDependencies": {
     "vite": "^2.5.4",
